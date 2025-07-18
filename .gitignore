@@ -1,0 +1,27 @@
+# === Global Ignores ===
+*.class
+*.log
+*.tmp
+.DS_Store
+
+# === IntelliJ IDEA ===
+**/.idea/
+*.iml
+
+# === Java build folders ===
+**/out/
+**/target/
+**/bin/
+build/
+
+# === VS Code (just in case) ===
+.vscode/
+
+# === NetBeans (just in case) ===
+nbbuild/
+dist/
+nbproject/
+
+# === Maven/Gradle specific (if used later) ===
+.mvn/
+.gradle/
