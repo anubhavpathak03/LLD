@@ -31,9 +31,9 @@ public:
         cout << brand << " " << model << " : Engine turned off." << endl;
     }
 
-    virtual void accelerate() = 0;  // Abstract method for Dynamic Polymorphism
+    virtual void accelerate() = 0;  // Abstract method for Dynamic Polymorphism-(method overridding)
 
-    virtual void accelerate(int speed) = 0;  //Abstract method for Static Polymorphism
+    virtual void accelerate(int speed) = 0;  //Abstract method for Static Polymorphism -(method overloading)
 
     virtual void brake() = 0;       // Abstract method for Dynamic Polymorphism
     

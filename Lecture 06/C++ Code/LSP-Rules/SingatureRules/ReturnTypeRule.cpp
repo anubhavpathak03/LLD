@@ -52,7 +52,8 @@ int main() {
     Child* child = new Child();
 
     Client* client = new Client(child);
-    //Client * client = new Client(parent);
+    client->takeAnimal();
+    client = new Client(parent);
     client->takeAnimal();
 
     return 0;
